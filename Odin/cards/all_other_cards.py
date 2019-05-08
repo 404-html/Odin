@@ -527,31 +527,31 @@ class Fuck(AbstractCard):
 class BlueFuck(Fuck):
     NAME = "Fuckin' Blue M8"
     CARD_COLOUR = "blue"
-    CARD_IMAGE_URL = 'cards/fuck_blue.png'
+    CARD_IMAGE_URL = 'cards/butterfly_blue.png'
 
 
 class GreenFuck(Fuck):
     NAME = "Fuckin' Green M8"
     CARD_COLOUR = "green"
-    CARD_IMAGE_URL = 'cards/fuck_green.png'
+    CARD_IMAGE_URL = 'cards/butterfly_green.png'
 
 
 class RedFuck(Fuck):
     NAME = "Fuckin' Red M8"
     CARD_COLOUR = "red"
-    CARD_IMAGE_URL = 'cards/fuck_red.png'
+    CARD_IMAGE_URL = 'cards/butterfly_red.png'
 
 
 class BlackFuck(Fuck):
     NAME = "Fuckin' Black M8"
     CARD_COLOUR = "black"
-    CARD_IMAGE_URL = 'cards/fuck_black.png'
+    CARD_IMAGE_URL = 'cards/butterfly_black.png'
 
 
 class YellowFuck(Fuck):
     NAME = "Fuckin' Yellow M8"
     CARD_COLOUR = "yellow"
-    CARD_IMAGE_URL = 'cards/fuck_yellow.png'
+    CARD_IMAGE_URL = 'cards/butterfly_yellow.png'
 
 
 # ~~~~~~~~~~~~~~
@@ -1034,7 +1034,7 @@ class Plus(AbstractCard):
 class FuckYou(AbstractCard):
     NAME = "Fuck You"
     CARD_COLOUR = "black"
-    CARD_IMAGE_URL = 'cards/fuck_you.png'
+    CARD_IMAGE_URL = 'cards/butterfly_you.png'
     CARD_FREQUENCY = CardFrequency(2, 1.5, 1, 0.15, starting=0)
     CARD_TYPE = "Fuck You"
     CAN_BE_ON_PICKUP = True
